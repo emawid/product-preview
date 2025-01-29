@@ -1,0 +1,34 @@
+:root {
+  --pure-white: #ffffff;
+  --cream-bg: #f2eae2;
+  --aurometal-saurus: #6c7289;
+  --deep-aquamarine: #3d8168;
+  --deep-aquamarine-hover: #1a4032;
+  --gunmetal: #1c232b;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: system-ui;
+  margin: 0;
+}
+
+html {
+  background-color: var(--cream-bg);
+}
+
+input,
+textarea,
+button,
+select {
+  font: inherit;
+}
+
+button {
+  all: unset;
+  outline: revert;
+  box-sizing: border-box;
+}

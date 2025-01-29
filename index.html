@@ -3,11 +3,52 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link rel="stylesheet" href="./src/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,700;1,9..144,700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Frontend Mentor | Product preview</title>
   </head>
   <body>
-    Perfume Gabrielle Essence Eau De Parfum A floral, solar and voluptuous
-    interpretation composed by Olivier Polge, Perfumer-Creator for the House of
-    CHANEL. $149.99 $169.99 Add to Cart
+    <main>
+      <div id="container">
+        <div id="#product-image">
+          <img
+            src="./images/image-product-mobile.jpg"
+            width="686"
+            height="480"
+            alt=""
+          />
+        </div>
+        <div id="text-content">
+          <p id="overline" class="text-overline">Perfume</p>
+          <h1 id="headline">Gabrielle Essence Eau De Parfum</h1>
+          <p id="product-description" class="text-body">
+            A floral, solar and voluptuous interpretation composed by Olivier
+            Polge, Perfumer-Creator for the House of CHANEL.
+          </p>
+          <div id="price">
+            <p id="new-price" class="text-display">$149.99</p>
+            <p id="old-price">$169.99</p>
+          </div>
+          <button class="text-button">Add to Cart</button>
+        </div>
+      </div>
+    </main>
   </body>
 </html>

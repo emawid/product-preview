@@ -1,0 +1,33 @@
+/* TODO: */
+
+.text-display {
+  font-family: Fraunces, system-ui;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: normal;
+}
+
+.text-body {
+  font-family: Montserrat, system-ui;
+  font-size: 0.875rem;
+  font-weight: 500;
+  line-height: 1.64;
+  letter-spacing: normal;
+}
+
+.text-button {
+  font-family: Montserrat, system-ui;
+  font-size: 0.875rem;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: normal;
+}
+
+.text-overline {
+  font-family: Montserrat, system-ui;
+  font-size: 0.75rem;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 5px;
+}
