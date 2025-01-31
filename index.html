@@ -28,17 +28,18 @@
     <main>
       <div id="container">
         <div id="#product-image">
-          <img
-            src="./images/image-product-mobile.jpg"
-            width="686"
-            height="480"
-            alt="perfume bottle"
-            srcset="
-              ./images/image-product-mobile.jpg  686w,
-              ./images/image-product-desktop.jpg 600w
-            "
-            sizes="(max-width: 1440px) 686px, 600px"
-          />
+          <picture>
+            <source
+              media="(min-width:1440px)"
+              srcset="./images/image-product-desktop.jpg"
+            />
+            <img
+              src="./images/image-product-mobile.jpg"
+              width="686"
+              height="480"
+              alt="perfume bottle"
+            />
+          </picture>
         </div>
         <div id="text-content">
           <p id="overline" class="text-overline">Perfume</p>
