@@ -58,7 +58,7 @@ img {
 
 #old-price {
   font-family: montserrat, system-ui;
-  font-size: 1.1rem;
+  font-size: 0.8125rem;
   color: var(--aurometal-saurus);
   line-height: 1.77;
   text-decoration: line-through;
